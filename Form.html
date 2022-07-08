@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <h2>Student Application Form</h2>
+    <form action="Beckend.php">
+        <label for="Sname">First Name: </label>
+           <input type="text" name = "MyFirstName" id="Sname"> 
+        <label for="Lname">Last Name: </label>
+           <input type="text" name = "MyLastName" id="Lname"> 
+        <br>
+        <br> 
+        <div>
+            <label for="em">Email :</label>
+             <input type="email" name="MyEmail" id="em" >
+        </div>
+        <br>
+        <div>
+            <label for="dob">Date Of Birth : </label>
+            <input type="date" name="MyDateOfBirth" id="dob" >
+        </div>
+        <br>
+        <div>
+            <label for="gen">Gender :</label>
+             Male<input type="radio" name="MyGender" id="gen"> Female <input type="radio" name="MyGender" >
+             Other<input type="radio" name="MyGender" >
+        </div>
+        <br>
+        <div>
+            <label for="sem">Semester :</label>
+             <input type="number" name ="MySemester" id="sem"> 
+        </div>
+        <br>
+        <div>
+            <label for="Sc">Select Course :</label>
+             <select name="MyCourse" id="Sc">
+                <option value="Science">Science</option>
+                <option value="Ar">Arts</option>
+                <option value="co">Commerce</option>
+            </select>
+        </div>
+        <br>
+        <ul> 
+        <li>Only for Science Student</li>
+        </ul>
+        
+        <div>
+            <label for="Sci">Sience Group</label>
+             <select name="Group" id="Sci" >
+                <option value="a">A</option>
+                <option value="b">B</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="TA">Write about yourself: </label>
+            <br><textarea name="" id="TA"  cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            Are you sure to submit Application <input type="checkbox" name="My" checked>
+            </div>
+            <br>
+       
+        <div>
+            <input type="submit" value="Submit Application">
+            <input type="reset" value="Reset Application">    
+        </div>
+    </form>
+    
+</body>
+</html>
