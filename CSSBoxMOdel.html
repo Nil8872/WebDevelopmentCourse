@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model in CSS</title>
+    <style>
+        *{
+            box-sizing:content-box;
+        }
+        .contain {
+            color: rgb(0 0 0);
+            border: 4px solid #0046ff;
+            border-radius: 39px;
+            background-color: #dcd9ff;
+            /* padding: 10px 20px 30px 40px; --> padding: top-right-bottom-left  */
+            /* padding: 30px; */
+            /* padding: 4px 51px; */
+            padding-left: 27px;
+            padding-right: 20px;
+            padding-top: 11px;
+            padding-bottom: 10px;
+            margin-top: 16px;
+            margin-right: 1119px;
+            margin-left: 37px;
+            margin-bottom: 44px;
+            
+
+        }
+
+        body {
+            color: rgb(19 142 13);
+        }
+    </style>
+</head>
+
+<body>
+    <h3 style="color: red;">Box model in Css</h3>
+    <div id="firstpara" class="contain">
+        <h4>First paragraph</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque quibusdam necessitatibus soluta tempore rem
+            sunt earum eius qui nemo dolorum ipsum officiis voluptates deleniti asperiores nulla tenetur laboriosam quia
+            debitis at natus voluptas vitae, alias dicta? Dolorum vero
+        </p>
+    </div>
+    <div id="secondpara" class="contain">
+        <h4>Second paragraph</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque quibusdam necessitatibus soluta tempore rem
+            sunt earum eius qui nemo dolorum ipsum officiis voluptates deleniti asperiores
+        </p>
+    </div>
+    <div id="thirdpara" class="contain">
+        <h4>Third paragraph </h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque quibusdam necessitatibus soluta tempore rem
+            sunt earum eius qui nemo dolorum ipsum officiis voluptates deleniti asperiores nulla t
+    </div>
+</body>
+
+</html>
