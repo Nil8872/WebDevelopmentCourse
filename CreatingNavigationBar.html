@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="eg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Navigation Bar</title>
+    <style>
+        .navbar {
+            background-color: rgb(105 101 101);
+            margin: 23px 0px;
+            padding: 1px 0px;
+            border-radius: 30px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar ul li {
+            
+            float: left;
+            list-style: none;
+        }
+
+        .search {
+            float: right;
+
+
+            margin: 0px 73px;
+            /* padding: 0px 0px; */
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            padding: 0px 10px;
+            color: rgb(241 241 241);
+        }
+
+        .navbar li a:hover {
+            color: black;
+        }
+
+        .navbar input {
+            border-radius: 8px;
+            border-color: rgb(105 101 101);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="navi" class="navbar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">File</a></li>
+                <li><a href="">Edit</a></li>
+                <li><a href="">Selection</a></li>
+                <li><a href="">View</a></li>
+                <li><a href="">Run</a></li>
+                <div class="search">
+                    <input type="text" name="Mysearch" id="search" placeholder="Search here">
+                </div>
+            </ul>
+        </div>
+    </header>
+</body>
+
+</html>
