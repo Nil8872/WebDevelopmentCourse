@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable and custom Property in Css</title>
+    <style>
+        :root{
+            --box-color:red;
+
+            --danger-color: rgb(4, 255, 0);
+        }
+        .containar{
+            display: flex;
+           
+        }
+        .box{
+            height: 100px;
+            width:100px;
+            border: 2px solid var(--box-color);
+            margin: 5px 10px;
+            background-color: var(--box-color) ;
+
+        }
+        p{
+            color: var(--danger-color);
+        }
+        .nil{
+            /* color: var(--danger-color); */
+            color:var(--box-color) ;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="containar">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <p>My name is sariya nilesh vinubhai</p>
+        <div class="nil">hii i am nilesh</div>
+    
+    </div>
+</body>
+
+</html>
