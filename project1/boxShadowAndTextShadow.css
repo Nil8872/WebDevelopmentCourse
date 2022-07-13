@@ -1,0 +1,22 @@
+.containar {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.box {
+    flex-direction: column;
+    border: 3px solid red;
+    margin: 5px 8px;     
+    padding: 8px 10px;
+    /* box-shadow: -5px -5px black; */
+    /* box-shadow: 7px 7px 5px black;
+    box-shadow: 7px 7px 5px 5px black; */
+    box-shadow: inset 7px 7px black;
+    border-radius: 10px;
+
+}
+h2{
+    color: blue;
+    text-shadow: -1px -1px aqua;
+}
