@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="eg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition and Transfomr in CSS</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .container{
+            display: flex;
+            height: 900px;
+
+            background-color: black;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            border: 2px solid black;
+            border-color: aqua;
+            background-color: blue;
+            display: flex;
+            width: 300px;
+            height: 300px;
+            justify-content: center;
+            /* transition-property: all ; */
+            align-items:center;
+            transition-duration:1s;
+            transition-timing-function: ease-in-out;
+            border-radius: 10px;
+            transition: all 0.5s ease-in-out 0.3s; 
+            /* Transition-property duration timing-function delay  */
+            /* transform: rotate(30deg); */
+        }
+        .box:hover{
+            background-color: white;
+            font-size: 43px;
+            /* height: 500px; */
+            /* width: 500px; */
+            /* border-radius: 50px; */
+            /* transform:rotate(360deg); */
+            /* transform: scale(2); */
+            /* transform: skew(-20deg); */
+            /* transform: translatetX(123px); */
+            /* transform: translatetY(123px); */
+            /* transform: translate(-120px, -123px); */
+            transform: translateX(150px);
+            /* content: 'My Name is sariya Nilesh'; */
+
+
+            border-color: blueviolet;
+        }
+
+    </style>
+</head>
+<div class="container">
+    <div class="box">
+        <p>This is box</p>
+    </div>
+</div>
+<body>
+
+</body>
+
+</html>
