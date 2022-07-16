@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Basic</title>
+</head>
+<style>
+    .box-container {
+        display: grid;
+        /*Grid Rows property */
+
+
+        /* grid-template-columns: 200px 200px 1fr; */
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        /* grid-template-columns: 4fr 1fr 2fr; */
+        /* grid-template-columns: 4fr 1fr 2fr; */
+        /* grid-template-columns: auto; */
+        /* grid-template-rows: repeat(10); */
+
+
+        /*Grid Rows property */
+        /* grid-template-rows: 1fr 1fr; */
+        /* grid-template-columns: 3fr 3fr 3fr; */
+        /* grid-template-rows: 1fr 2fr 3fr 4fr; */
+        /* grid-template-rows: repeat(10); */
+        /* grid-auto-rows: 3fr 2fr 1fr; */
+        /* grid-template-columns: 1fr 2fr 1fr; */
+        /* grid-gap: 5px; */
+        grid-row-gap:50px;
+        grid-column-gap: 100px;
+        grid-template-columns: 1fr 2fr 3fr;
+    }
+
+    .item {
+        border: 2px solid rebeccapurple;
+        background-color: rgb(237, 237, 78);
+        border-radius: 5px;
+        /* width: 100%; */
+        /* width: 100px; */
+
+        /* margin: 5px 5px;
+        padding: 5px 5px; */
+
+    }
+</style>
+
+<body>
+    <div class="box-container">
+        <div id="box-1" class="item">This is Box 1</div>
+        <div id="box-2" class="item">This is Box 2</div>
+        <div id="box-3" class="item">This is Box 3</div>
+        <div id="box-4" class="item">This is Box 4</div>
+        <div id="box-5" class="item">This is Box 5</div>
+        <div id="box-6" class="item">This is Box 6</div>
+        <div id="box-7" class="item">This is Box 7</div>
+        <div id="box-8" class="item">This is Box 8</div>
+        <div id="box-9" class="item">This is Box 9</div>
+        <div id="box-10" class="item">This is Box 10</div>
+        <div id="box-11" class="item">This is Box 11</div>
+        <div id="box-12" class="item">This is Box 12</div>
+        <div id="box-13" class="item">This is Box 13</div>
+        <div id="box-14" class="item">This is Box 14</div>
+        <div id="box-15" class="item">This is Box 15</div>
+        <div id="box-15" class="item">This is Box 15</div>
+        <div id="box-15" class="item">This is Box 15</div>
+        <div id="box-15" class="item">This is Box 15</div>
+        <div id="box-15" class="item">This is Box 15</div>
+        <div id="box-15" class="item">This is Box 15</div>
+        <div id="box-15" class="item">This is Box 15</div>
+        <div id="box-15" class="item">This is Box 15</div>
+        <div id="box-15" class="item">This is Box 15</div>
+        <div id="box-15" class="item">This is Box 15</div>
+        <div id="box-15" class="item">This is Box 15</div>
+    </div>
+</body>
+
+</html>
