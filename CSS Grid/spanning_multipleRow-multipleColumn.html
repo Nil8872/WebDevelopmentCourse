@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanning Multiple row and Multiple column in Css Grid</title>
+    <style>
+        .box-container{
+            display: grid;
+            grid-template-columns: repeat(4, 2fr);
+
+        }
+
+        .item {
+        border: 2px solid rebeccapurple;
+        background-color: rgb(237, 237, 78);
+        border-radius: 5px;
+        margin: 10px;
+        padding: 10px;
+        }
+        .item:first-child{
+            /* grid-column-start: 1;
+            grid-column-end:5; */
+            /* grid-row-start: 1;
+            grid-row-end:3;
+             */
+            /* grid-column-start: 3;
+            grid-column-end: 5; */
+
+            grid-column: 1 / span 2;
+            grid-row: 1 / span 2;
+                grid-column: 3 / span 4;
+                grid-row: 3 / span 4; 
+            /* grid-row: 3 / span 6; */
+        }
+      
+        
+    </style>
+</head>
+
+<body>
+    <div class="box-container">
+        <div id="box-1" class="item">This is Box 1</div>
+        <div id="box-2" class="item">This is Box 2</div>
+        <div id="box-3" class="item">This is Box 3</div>
+        <div id="box-4" class="item">This is Box 4</div>
+        <div id="box-5" class="item">This is Box 5</div>
+        <div id="box-6" class="item">This is Box 6</div>
+        <div id="box-7" class="item">This is Box 7</div>
+        <div id="box-8" class="item">This is Box 8</div>
+        <div id="box-9" class="item">This is Box 9</div>
+        <div id="box-9" class="item">This is Box 9</div>
+        <div id="box-10" class="item">This is Box 10</div>
+        <div id="box-11" class="item">This is Box 11</div>
+        <div id="box-12" class="item">This is Box 12</div>
+        <div id="box-13" class="item">This is Box 13</div>
+        <div id="box-14" class="item">This is Box 14</div>
+        <div id="box-15" class="item">This is Box 15</div>
+        <div id="box-15" class="item">This is Box 15</div>
+        <div id="box-15" class="item">This is Box 15</div>
+        <div id="box-15" class="item">This is Box 15</div>
+        <div id="box-15" class="item">This is Box 15</div>
+    </div>
+</body>
+
+</html>
