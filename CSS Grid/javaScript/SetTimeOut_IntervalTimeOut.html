@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="eg">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SetTimeOut and IntervalTimeOut in javaScript</title>
+    </head>
+    <body>
+        <div class="container">
+           Time is now: 
+
+            <span id="time"> </span>
+        </div>
+
+        <script>
+            // SetTimeOut--> is run only once ;
+            // setInterval --> is run Repeatly;
+
+            function greet(name, massage, work){
+                console.log("My name is sariya nilesh" +" "+ name + " " + massage);
+            }
+            // setTimeOut(greet,{5000});
+            // let timeout = setTimeout(greet, 2000, "hello", "This");
+            // console.log(timeout);
+            // clearTimeout(timeout);
+
+            // -->  setInterval <--
+
+            // let timeout = setInterval(greet, 1000);
+            // console.log(timeout);
+            // clearInterval(timeout);
+
+
+            function displayTime(){
+                time = new Date;
+                document.getElementById('time').innerHTML = time;
+                console.log(time);
+            }
+            
+            
+            setInterval(displayTime, 1000 );
+             
+        </script>
+    </body>
+</html>
