@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="eg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops in javaScript</title>
+</head>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In necessitatibus accusantium vero.</p>
+
+<body>
+    <script>
+        let a = "This is loops in java Script";
+        console.log(a);
+        // for loop in JavaScript
+        // for(i=0; i<5; i++){
+        //     console.log(i);
+        // }
+
+        // let arr = ['Nilu', 'Vijay', 'Umesh', 'Dharmik', 'Dharmesh', ];
+        // arr.forEach(element => {
+        //     console.log(element);
+        // })
+
+
+        // arr.forEach(function f(element){
+        //     console.log(element);
+        // })
+        // for(i=0; i<arr.length;i++){
+        //     console.log(arr[i]);
+        // }.
+
+        // for of loop in javaScript
+
+        // for(element of arr){
+        //     console.log(element);
+        // }
+
+        let employee = {
+            name: "Nilesh",
+            Salary: 50000,
+            CompanyName: "Google"
+        }
+        // console.log("Company name is: "+employee.CompanyName);
+        
+        for(key in employee){
+            console.log(`employee ${key} is ${employee[key]}.`)
+        }
+    </script>
+
+</body>
+
+</html>
