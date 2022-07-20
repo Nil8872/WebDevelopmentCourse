@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Function in javaScript</title>
+
+</head>
+
+<body>
+    <div class="container">
+        This is container in html
+
+        <script>
+            console.log('This is in javaScript.');
+
+            // function greet() {
+            //     console.log("Good morning!");
+            // }
+            // greet();
+            // let greet = () =>{ console.log("Good Morning!")};
+            // greet();
+
+            // setTimeout(() => {
+            //     // console.log("This is indide setTimeout");
+            //     greet();
+            // }, 3000);
+
+            // setTimeout(greet, 3000);
+
+            // setTimeout( ()=> {
+            //     console.log("i am inside in setTimeout");
+            // }, 3000);
+
+            // function sum(a,b){
+            //     return a+b;
+            // }
+
+            // let sum = (a,b) => {
+            //     return a+b;
+            // };
+
+            // let sum2 = a => a/2;
+                
+            // let obj = {
+            //     names: ["Nilesh", "vijay", "Umesh", "Sariya"],
+            //     speak(){
+            //     this.names.forEach( (element)=>{
+            //         console.log("Hii " + element);
+            //     });  
+
+                 
+            //     } 
+            // }
+            let obj = {
+                greeting:"Good morning",
+                names: ["Nilesh", "vijay", "Umesh", "Sariya"],
+                speak(){
+                this.names.forEach((student) =>{
+                    console.log(this.greeting +" "+ student);
+                })
+                 
+                } 
+            }
+            obj.speak();
+        </script>
+    </div>
+</body>
+
+</html>
