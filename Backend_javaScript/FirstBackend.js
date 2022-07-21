@@ -65,18 +65,7 @@ const server = http.createServer((req, res) => {
                   architecto molestias sed blanditiis distinctio veritatis qui aperiam officiis corrupti reprehenderit
                   numquam modi, beatae, aliquam aut assumenda voluptas cum? Inventore totam illum perferendis quis, id,
                   possimus voluptatibus repellendus animi nobis sunt ipsum quidem accusamus! Natus nisi similique aut
-                  explicabo omnis soluta, voluptates commodi quos numquam, quibusdam, dicta eos tenetur suscipit aliquam
-                  illum! Id possimus consectetur itaque quia quisquam quis? Laborum vero incidunt accusamus officiis
-                  excepturi nam id quam vel reiciendis perferendis! Nulla hic sapiente voluptates impedit provident
-                  eveniet expedita, commodi laborum ab odit iusto, sint sequi placeat quo sunt excepturi. Delectus
-                  repellendus praesentium provident distinctio consectetur mollitia quas! Nisi, a pariatur voluptas modi
-                  ipsum, eaque, delectus saepe amet excepturi nemo consequuntur doloremque tenetur. Officiis ipsam
-                  numquam, suscipit natus expedita autem voluptatibus accusamus obcaecati facilis. Ducimus aspernatur
-                  eveniet temporibus, maxime accusantium rerum cumque? Aliquam voluptatibus libero ut repellat deleniti,
-                  minima atque modi similique harum molestiae quos officia omnis sint vero in. Facilis necessitatibus
-                  molestias architecto voluptates non quas dolorum, quae porro impedit maxime nulla a ullam est blanditiis
-                  quod rem ipsa corrupti odio. Consequatur quibusdam eius dolorem beatae laudantium quidem voluptas
-                  excepturi hic sapiente reprehenderit doloribus accusantium dolores modi voluptatem </p>
+                   reprehenderit doloribus accusantium dolores modi voluptatem </p>
           </div>
           <div id="aside" class="item">
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem quasi, aspernatur necessitatibus
@@ -84,20 +73,7 @@ const server = http.createServer((req, res) => {
                   amet optio aliquam, quibusdam ea beatae ex hic delectus commodi rerum, quis quasi. Neque, deleniti
                   distinctio odio natus voluptatibus tenetur non repudiandae delectus sint libero, exercitationem ipsa
                   atque voluptatum dolorem necessitatibus! Omnis quia laudantium quo eligendi autem explicabo, sint iure
-                  sequi iste consequatur illum. Nam, odit! Modi, minus! Cum, minima nesciunt? Voluptatibus modi ut ipsa
-                  sunt? Laborum quae modi velit, ipsam cumque delectus voluptate ad necessitatibus molestias ullam
-                  deserunt itaque eius suscipit sapiente repellat. Perspiciatis ut nihil quis tempora sequi vitae
-                  aspernatur, suscipit ipsum eligendi facilis perferendis, saepe nesciunt necessitatibus dolorum omnis
-                  quia voluptate consequatur repudiandae dignissimos laboriosam modi dolore eos facere iure. Soluta veniam
-                  iste voluptate repellat. Facilis dolore saepe possimus. Fugiat quaerat sint dolorem dolores iste!
-                  Corrupti nostrum reiciendis fugit earum tempora iste rerum! Sed eveniet ratione voluptatum debitis
-                  suscipit sint dignissimos reprehenderit mollitia odio porro rerum, consequatur fuga facere nihil ut,
-                  labore eos accusamus obcaecati nostrum repudiandae distinctio voluptas. Eum provident sed laboriosam
-                  eius laborum nisi reiciendis, similique totam non blanditiis velit ullam quo minima est voluptates,
-                  atque dolorum maxime incidunt nostrum facere officiis repudiandae. At dolores rem ipsum dolorum
-                  voluptates recusandae magni deserunt praesentium aut, accusantium cupiditate amet ea, id aliquam natus
-                  repudiandae. Repellendus iure laborum fuga libero expedita doloremque ab consectetur perferendis alias
-                  harum, recusandae, facilis numquam amet, molestias similique unde non eveniet omnis praesentium
+                    facilis numquam amet, molestias similique unde non eveniet omnis praesentium
               </p>
           </div>
           <footer class="item">
